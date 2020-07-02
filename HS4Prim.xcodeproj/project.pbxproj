@@ -56,15 +56,47 @@
 		AB9ABDA424AD55E0003E950E /* HS4Prim */ = {
 			isa = PBXGroup;
 			children = (
-				AB9ABDA524AD55E0003E950E /* AppDelegate.swift */,
-				AB9ABDA724AD55E0003E950E /* SceneDelegate.swift */,
-				AB9ABDA924AD55E0003E950E /* ViewController.swift */,
-				AB9ABDAB24AD55E0003E950E /* Main.storyboard */,
-				AB9ABDAE24AD55E1003E950E /* Assets.xcassets */,
-				AB9ABDB024AD55E1003E950E /* LaunchScreen.storyboard */,
-				AB9ABDB324AD55E1003E950E /* Info.plist */,
+				AB9ABDB924AD561F003E950E /* Resources */,
+				AB9ABDBC24AD5632003E950E /* Controllers */,
+				AB9ABDBA24AD5627003E950E /* Views */,
 			);
 			path = HS4Prim;
+			sourceTree = "<group>";
+		};
+		AB9ABDB924AD561F003E950E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB9ABDA524AD55E0003E950E /* AppDelegate.swift */,
+				AB9ABDA724AD55E0003E950E /* SceneDelegate.swift */,
+				AB9ABDAE24AD55E1003E950E /* Assets.xcassets */,
+				AB9ABDB324AD55E1003E950E /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB9ABDBA24AD5627003E950E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9ABDBB24AD562C003E950E /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB9ABDBB24AD562C003E950E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB9ABDAB24AD55E0003E950E /* Main.storyboard */,
+				AB9ABDB024AD55E1003E950E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB9ABDBC24AD5632003E950E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB9ABDA924AD55E0003E950E /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69Y2XBHVDM;
-				INFOPLIST_FILE = HS4Prim/Info.plist;
+				INFOPLIST_FILE = HS4Prim/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +336,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69Y2XBHVDM;
-				INFOPLIST_FILE = HS4Prim/Info.plist;
+				INFOPLIST_FILE = HS4Prim/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
